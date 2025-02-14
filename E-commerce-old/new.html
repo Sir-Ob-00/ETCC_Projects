@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link href="new.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Home</h1>
+        <div>
+            <i class="fas fa-shopping-cart"></i> <span>0</span>
+        </div>
+    </nav>
+
+    <div class="search-bar">
+        <h2>MUSICAL KEYBOARD</h2>
+        <input type="text" id="search" placeholder="Search by title or price...">
+    </div>
+
+    <div class="container" id="product-container"></div>
+
+    <div class="cart-pane" id="cart-pane">
+        <h2>Cart</h2>
+        <ul id="cart"></ul>
+        <h3>Total: GH₵<span id="total">0</span></h3>
+        <button class="removeAll" onclick="removeAll()">Remove All</button>
+    </div>
+
+    <script type="module" src="new.js"></script>
+</body>
+</html>

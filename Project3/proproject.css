@@ -1,0 +1,142 @@
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+ }
+
+
+.background-image {
+    background: url('image-hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; 
+}
+
+.navbar {
+    padding: 20px 40px;
+    width: 100%; 
+    max-width: 900px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute; 
+    top: 20px; 
+    box-sizing: border-box;
+}
+
+.logo {
+   width: 20px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+
+.background-image ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+.background-image ul li{
+    display: inline;
+}
+.background-image ul li a{
+    font-family: alata;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.background-image ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.content {
+    
+    margin-top: 50px; 
+    margin-left: 50px;
+}
+
+.bordered-div {
+    border: 2px solid #fff; 
+    width: 450px;
+}
+
+.bordered-div p {
+    font-family: alata, Josefin sans;
+    color: #fff; 
+    font-size: 50px; 
+}
+
+footer {
+    background-color: #060606; 
+    color: #fff; 
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    margin-top: 100px;
+}
+.footer-div1 img{
+    height: auto;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.footer-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex: 1; 
+    text-align: left; 
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-right: 15px; 
+}
+
+.footer-menu li:last-child {
+    margin-right: 0; 
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 18px; 
+}
+.footer-menu li a:hover{
+    text-decoration: underline;
+}
+
+.social-icons {
+    flex: 1; 
+    text-align: right; 
+    margin-right: 100px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-left: 10px; 
+}
+
+.social-icons a img {
+    height: 20px; 
+    width: auto; 
+}
+.social-icons a:hover{
+    text-decoration: underline;
+}

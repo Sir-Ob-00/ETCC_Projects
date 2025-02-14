@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('background-destination-desktop.jpg');
+    background-size: cover;
+    position: relative;
+    height: 90%;
+    max-width: 900px;
+}
+.background-top{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    
+}
+.logo-div{
+    width: 100px;
+    margin-right: 200px;
+}
+.line-div{
+    width: 500px;
+    margin-right: -100px;
+}
+.navigation{
+    background-color: rgb(21, 37, 70);
+    padding: 30px;
+    box-sizing: border-box;
+    margin-left: 100px;
+    width: 560px;
+    opacity: 0.5px;
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;  
+}
+.navigation ul li:hover{
+    text-decoration: underline white;
+}
+.navigation ul li{
+    display: block;
+}
+.navigation ul li a{
+    text-decoration: none;
+    text-align: center; 
+    color: white;
+    font-size: 18px;
+}
+.navigation ul li a span{
+    font-weight: bolder;
+}
+.text-div{
+    position: absolute;
+    color: white;
+    top: 200px;
+    width: 300px;
+    height: auto;
+    left: 200px;
+}
+.one-text{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.pick-destination{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.secondtext-div{
+    color: white;
+    top: 200px;
+    left: 900px;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    text-align: center;
+}
+
+.image-mars{
+    position: absolute;
+    top: 280px;
+    left: 250px; 
+}
+.secondtext-div nav{
+    padding: 20px;
+}
+
+.secondtext-div nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+}
+
+.secondtext-div nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.secondtext-div nav ul li a:hover{
+    text-decoration: underline;
+    
+}
+.mars-head{
+    font-size: 100px;
+}
+.mars-text{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.buttom-div{
+    margin-top: 30px;
+    display: flex;
+    
+    gap: 10px;
+}
+.mile-text{
+    font-size: 30px;
+}
+.distance-div{
+    margin-left: 40px;
+}
+.distance-text{
+    margin-bottom: 10px;
+}
+.distance-one{
+    margin-left: 15px;
+}

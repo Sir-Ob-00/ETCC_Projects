@@ -1,0 +1,1 @@
+import {productsDetails} from "./index_array";

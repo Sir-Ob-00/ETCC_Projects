@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('background-home-desktop.jpg');
+    background-size: cover;
+    position: relative;
+    height: 90%;
+    max-width: 900px;
+}
+.background-top{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    
+}
+.logo-div{
+    width: 100px;
+    margin-right: 200px;
+}
+.line-div{
+    width: 500px;
+    margin-right: -100px;
+}
+.navigation{
+    background-color: rgb(21, 37, 70);
+    padding: 30px;
+    box-sizing: border-box;
+    margin-left: 100px;
+    width: 560px;
+    opacity: 0.5px;
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;  
+}
+.navigation ul li:hover{
+    text-decoration: underline white;
+}
+.navigation ul li{
+    display: block;
+}
+.navigation ul li a{
+    text-decoration: none;
+    text-align: center; 
+    color: white;
+    font-size: 18px;
+}
+.navigation ul li a span{
+    font-weight: bolder;
+}
+.text-div{
+    position: absolute;
+    color: white;
+    top: 300px;
+    width: 300px;
+    height: auto;
+    left: 200px;
+}
+.travel-text{
+    font-size: 20px;
+}
+.space-text{
+    font-size: 150px;
+}
+.all-text{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.explore-text{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 200px;
+    border-radius: 50%;
+}
+.explore{
+    align-items: center;
+    margin-top: 20px;
+}

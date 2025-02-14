@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+body {
+    font-family: kumbh san;
+    margin: 50px;
+    padding: 0;
+}
+
+@media(max-width: 375px){}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-color: rgb(207, 207, 206);
+   border-bottom: 1px solid;
+   border-color: rgb(243, 243, 225);
+}
+.nav-cart{
+    margin-right: 40px;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a {
+    color: rgb(163, 159, 159);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+main{
+    display: flex;
+    margin: 50px;
+}
+
+
+.product-image{
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.image-thumbnail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-thumbnail img{
+    width: 80px;
+    border-radius: 10px;
+}
+.thumbnail-image1:hover{
+    opacity: 0.4;
+}
+.image1:hover{
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: orangered;
+}
+
+.text-div{
+    font-family: Kumbh Sans;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.sneaker-text{
+    font-size: small;
+    color: rgb(100, 99, 98);
+    font-weight: bold;
+}
+.fall-text{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.profile-text{
+    font-size: 15px;
+    color:  hsl(0, 0%, 51%);
+}
+.first-amount{
+    font-size: 20px;
+    font-weight: bold;
+}
+.fifty-button{
+    color: white;
+    border: none;
+    background-color: black;
+    width: 40px;
+    height: 22px;
+    border-radius: 5px;
+
+}
+.second-amount{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(78, 78, 78);
+    text-decoration: line-through;
+}
+.cart-button{
+    height: 45px;
+    width: 230px;
+   background: hsl(26, 95%, 49%);
+    border: none;
+    color: black;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+.zero-button{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(234, 238, 241);
+    border: none;
+    border-radius: 8px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+.minus-image{
+    margin-right: 40px;
+}
+.plus-image{
+    margin-left: 40px;
+}
+.cart-image{
+    color: rgb(222, 5, 5);
+    margin-right: 10px;
+}
